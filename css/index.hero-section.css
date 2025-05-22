@@ -1,0 +1,132 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 80px;
+
+    @media screen and (max-width: 992px) {
+        padding: 50px 0;
+    }
+
+    @media screen and (max-width: 576px) {
+        align-items: center;
+    }
+
+    p {
+        padding-top: 15px;
+        font-family: 'Inter', serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--white-color);
+        line-height: 25.5px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+    }
+
+    h1 {
+        padding-top: 16px;
+        padding-bottom: 45px;
+        font-family: 'Work Sans', serif;
+        font-size: 118px;
+        color: var(--white-color);
+        font-weight: 600;
+        line-height: 130px;
+        text-transform: uppercase;
+        text-align: right;
+
+        @media screen and (max-width: 992px) {
+            font-size: 90px;
+            line-height: normal;
+        }
+
+        @media screen and (max-width: 576px) {
+            font-size: 50px;
+        }
+    }
+}
+
+.hero-section__arrow-up {
+    width: 50px;
+    color: var(--svg-header-color);
+
+}
+
+.hero-section__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero-section__bottom-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 18px 80px;
+
+    @media screen and (max-width: 992px) {
+        padding: 18px 0;
+    }
+
+    @media screen and (max-width: 576px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 36px;
+    }
+}
+
+.hero-section__price-list {
+    a {
+        color: var(--white-color);
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+    }
+}
+
+.hero-section__arrow-down {
+    width: 50px;
+    color: var(--white-color);
+    margin-right: -100px;
+
+    @media screen and (max-width: 576px) {
+        margin-right: 0;
+    }
+}
+
+.hero-section__bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+
+    @media screen and (max-width: 576px) {
+        align-items: center;
+    }
+
+    p {
+        color: var(--white-color);
+        text-align: right;
+        font-family: 'Inter', serif;
+        font-size: 17px;
+        font-style: italic;
+        line-height: 25.5px;
+        font-weight: 600;
+        letter-spacing: .5px;
+
+        @media screen and (max-width: 992px) {
+            font-size: 15px;
+            max-inline-size: 190px;
+        }
+
+        @media screen and (max-width: 576px) {
+            text-align: center;
+            max-inline-size: none;
+        }
+    }
+}
+
+.hero-section__bottom-icon {
+    color: var(--svg-header-color);
+    width: 55px;
+}

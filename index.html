@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <script src="https://unpkg.com/htmx.org@1.9.10"
+        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Glamping</title>
+</head>
+
+<body>
+    <header class="header">
+        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-menu.partial.html"></div>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.hero-section.partial.html">
+        </section>
+    </header>
+
+    <main class="main">
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.welcome-section.partial.html">
+        </section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.reserving-section.partial.html">
+        </section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.explore.partial.html">
+        </section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.about-us.partial.html">
+        </section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.discount.partial.html">
+        </section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.habitations.partial.html">
+        </section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.customer-reviews.partial.html">
+        </section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.camp-infrastructure.partial.html">
+        </section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.price-list.partial.html">
+        </section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.latest-news-section.partial.html">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.footer.partial.html">
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
