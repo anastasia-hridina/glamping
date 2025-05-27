@@ -29,6 +29,14 @@ body {
     --discount-heading-color: #7c782f;
     --discount-heading-text-color: rgb(45, 45, 45);
     --discount-link-color: #ea9449;
+    --habitations-arrow-color: #ea9449;
+    --habitations-subheading-color: rgb(45, 45, 45);
+    --habitations-info-textcolor: rgb(104, 104, 104);
+    --habitations-link-color: #ea9449;
+    --habitations-cabins-subheading: rgb(124, 120, 47);
+    --habitations-textlink-color: #7c782f;
+    --habitations-cabins-item-text: rgb(128, 128, 128);
+    --habitations-border-color: rgb(231, 231, 219);
 }
 
 .container {
