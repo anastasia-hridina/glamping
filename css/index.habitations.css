@@ -157,6 +157,7 @@
     font-weight: 300;
     border-top: 1px solid var(--habitations-border-color);
     padding-top: 23px;
+    padding-bottom: 20px;
 }
 
 .habitations-cabins__item-subheading {
@@ -179,8 +180,4 @@
         font-size: 15px;
         font-family: 'Inter', sans-serif;
     }
-}
-
-.habitations-btn {
-    margin-top: 20px;
 }
