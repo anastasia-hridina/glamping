@@ -37,6 +37,12 @@ body {
     --habitations-textlink-color: #7c782f;
     --habitations-cabins-item-text: rgb(128, 128, 128);
     --habitations-border-color: rgb(231, 231, 219);
+    --customer-review-rating-color: rgb(124, 120, 47);
+    --customer-review-bg-color: rgba(249, 249, 247, 0.96);
+    --customer-review-text-color: rgb(128, 128, 128);
+    --customer-review-name-color: rgb(45, 45, 45);
+    --customer-review-chevron-color: #2d2d2d;
+    --customer-review-chevron-hover: #000:
 }
 
 .container {
