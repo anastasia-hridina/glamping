@@ -48,6 +48,10 @@
     gap: 50px;
     align-items: center;
 
+    @media screen and (max-width: 1262px) {
+        gap: 15px;
+    }
+
     .header-nav__list {
         display: flex;
         list-style-type: none;
@@ -94,6 +98,10 @@
         color: white;
         padding: 15px;
 
+        @media screen and (max-width: 1262px) {
+            font-size: 11px;
+        }
+
         @media screen and (max-width: 992px) {
             font-size: 20px;
             padding: 15px;
@@ -108,7 +116,10 @@
     color: white;
     font-weight: 200;
     letter-spacing: .6px;
-    margin-right: 25px;
+
+    @media screen and (max-width: 1074px) {
+        font-size: 11px;
+    }
 
     @media screen and (max-width: 992px) {
         display: none;
@@ -116,6 +127,9 @@
 }
 
 .social-links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
 
     @media screen and (max-width: 992px) {
         display: none;
@@ -124,7 +138,7 @@
     .social-links__item {
         text-decoration: none;
         color: white;
-        margin-left: 13px;
+        /* margin-left: 13px; */
 
         &:hover {
             color: var(--social-links-hover-color);
