@@ -1,3 +1,7 @@
+.customer-review {
+    margin-bottom: 5%;
+}
+
 .customer-review__video {
     aspect-ratio: 17/9;
     width: 100%;
@@ -17,6 +21,18 @@
     display: flex;
     gap: 25px;
     padding: 60px;
+
+    @media (max-width: 480px) {
+        padding: 80px 10px;
+        gap: 20px;
+    }
+}
+
+.customer-review__slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
 .customer-review__carousel-item {
@@ -34,6 +50,11 @@
         font-weight: 300;
         color: var(--customer-review-text-color);
         text-align: center;
+
+        @media (max-width: 480px) {
+            font-size: 14px;
+            line-height: 20px;
+        }
     }
 
     .fa {
@@ -45,6 +66,10 @@
         font-family: 'Inter', sans-serif;
         font-size: 17px;
         font-weight: 600;
+
+        @media (max-width: 480px) {
+            font-size: 14px;
+        }
     }
 
 }
@@ -67,4 +92,9 @@
 .customer-review__arrow-right {
     width: 30px;
     height: 30px;
+
+    @media (max-width: 480px) {
+        width: 15px;
+        height: 15px;
+    }
 }
